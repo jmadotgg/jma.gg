@@ -28,7 +28,7 @@ const Home: NextPage = () => {
           </span>
         </h1>
         <span>
-          <a className="text-white" href="https://github.com/RetroRock">
+          <a className="text-white" href="https://github.com/jmadotgg">
             GitHub
           </a>
         </span>
