@@ -2,20 +2,13 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
 import profilePic from "../img/profile.jpg";
-import githubPic from "../img/github.svg";
-
-type TechnologyCardProps = {
-  name: string;
-  description: string;
-  documentation: string;
-};
 
 const Home: NextPage = () => {
   return (
     <div className="bg-slate-800">
       <Head>
         <title>Julius Makel</title>
-        <meta name="description" content="Julius Makel" />
+        <meta name="description" content="Julius Makel" lang="en" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -24,8 +17,8 @@ const Home: NextPage = () => {
           <Image
             src={profilePic}
             alt="Profile picture"
-            width="250"
-            height="250"
+            width="408"
+            height="408"
             placeholder="blur"
           />
         </div>
