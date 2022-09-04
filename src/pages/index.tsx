@@ -35,7 +35,7 @@ const Home: NextPage = () => {
           </span>
         </h1>
         <p className="text-gray-300 md:text-[2rem] my-5">
-          Hi 🖖, I&aposm Julius!
+          Hi 🖖, I&apos;m Julius!
         </p>
         <span>
           <a
