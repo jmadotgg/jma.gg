@@ -1,11 +1,14 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
+import React from "react";
 import profilePic from "../img/profile.jpg";
 const description = "Hi 🖖, I'm Julius. I like to build things.";
 const title = "Julius Makel - Home";
 
 const Home: NextPage = () => {
+  const ref = React.useRef(null);
+
   return (
     <>
       <Head>
@@ -25,12 +28,44 @@ const Home: NextPage = () => {
               placeholder="blur"
             />
           </div>
-          <h1 className="text-5xl md:text-[5rem] leading-normal font-extrabold text-gray-700">
-            <span title={"Julius Makel"} className="text-indigo-300">
-              jma
+          <h1 className="text-7xl leading-normal font-extrabold text-gray-700">
+            <span title={"Julius Makel"} className="name text-indigo-300">
+              <span id="n-1">j</span>
+              <span className="vanish" id="n-2">
+                u
+              </span>
+              <span className="vanish" id="n-3">
+                l
+              </span>
+              <span className="vanish" id="n-3">
+                i
+              </span>
+              <span className="vanish" id="n-4">
+                u
+              </span>
+              <span className="vanish" id="n-5">
+                s
+              </span>
+              <span className="vanish" id="n-6">
+                {" "}
+              </span>
+              <span id="n-7">m</span>
+              <span id="n-8">a</span>
+              <span className="vanish" id="n-9">
+                k
+              </span>
+              <span className="vanish" id="n-10">
+                e
+              </span>
+              <span className="vanish" id="n-11">
+                l
+              </span>
             </span>
           </h1>
-          <p className="text-gray-300 md:text-[2rem] my-5">{description}</p>
+          <p className="text-gray-300 text-2xl  my-5 text-center">
+            Hi 🖖, I&apos;m Julius.
+            <br /> <span className="text-1xl">I like to build things.</span>
+          </p>
           <span>
             <a
               className="fill-white text-white flex gap-2"
