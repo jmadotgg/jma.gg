@@ -76,3 +76,52 @@ root {
     transform: translateY(50px) scale(0.8);
   }
 }
+
+@media (max-width: 768px) {
+  @keyframes moveLeft {
+    0% {
+      transform: translateX(0px);
+    }
+    50% {
+      transform: rotate(-2deg);
+    }
+    70% {
+      transform: translateX(-1.55rem);
+    }
+    100% {
+      transform: translateX(-1.5rem);
+    }
+  }
+
+  @keyframes moveRight {
+    0% {
+      transform: translateX(0px) rotate(0deg);
+    }
+    50% {
+      transform: rotate(10deg);
+    }
+    70% {
+      transform: translateX(5.5rem) scaleX(0.9);
+    }
+    100% {
+      transform: translateX(5.4rem) rotate(0deg) scaleX(1);
+    }
+  }
+
+  @keyframes vanish {
+    0% {
+      opacity: 1;
+      transform: translateY(0px) scale(1) skew(0);
+    }
+    50% {
+      transform: translateY(0px) scale(0.6) skew(-50deg, 50deg);
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(50px) scale(0.8);
+    }
+  }
+
+  @media (min-width: 768px) {
+  }
+}

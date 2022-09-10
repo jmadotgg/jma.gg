@@ -28,7 +28,7 @@ const Home: NextPage = () => {
               placeholder="blur"
             />
           </div>
-          <h1 className="text-7xl leading-normal font-extrabold text-gray-700">
+          <h1 className="md:text-7xl text-5xl leading-normal font-extrabold text-gray-700">
             <span title={"Julius Makel"} className="name text-indigo-300">
               <span id="n-1">j</span>
               <span className="vanish" id="n-2">
