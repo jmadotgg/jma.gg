@@ -121,7 +121,4 @@ root {
       transform: translateY(50px) scale(0.8);
     }
   }
-
-  @media (min-width: 768px) {
-  }
 }
