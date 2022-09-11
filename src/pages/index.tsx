@@ -19,9 +19,8 @@ const Home: NextPage = () => {
           href="/sitemap.xml"
         />
         <title>{title}</title>
-        <body className="bg-slate-800" />
       </Head>
-      <main className="container min-w-full w-80 overflow-auto mx-auto flex flex-col items-center justify-center h-screen p-4">
+      <main className="bg-slate-800 container min-w-full w-80 overflow-auto mx-auto flex flex-col items-center justify-center h-screen p-4">
         <div className="grow-0 shrink-0 md:w-52 md:h-52 w-28 h-28 rounded-full overflow-hidden border-indigo-300 border-2 bg-slate-600">
           <Image
             src={profilePic}
