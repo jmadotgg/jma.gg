@@ -7,14 +7,17 @@ const description = "Hi 🖖, I'm Julius. I like to build things.";
 const title = "Julius Makel - Home";
 
 const Home: NextPage = () => {
-  const ref = React.useRef(null);
-
   return (
     <>
       <Head>
         <meta name="description" content={description} lang="en" />
-        <meta property="og:description" content={description} />
         <link rel="icon" href="/favicon.ico" />
+        <link
+          rel="sitemap"
+          type="application/xml"
+          title="Sitemap"
+          href="/sitemap.xml"
+        />
         <title>{title}</title>
       </Head>
       <div className="bg-slate-800">
